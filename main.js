@@ -90,7 +90,7 @@ function CreateSurfaceData()
 {
     let vertexList = [];
 
-    const POINTS = 300
+    const POINTS = 100
     let a = 2.000001
 
     for (let i=0; i<POINTS; i++) {
