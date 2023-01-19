@@ -22,6 +22,17 @@
 <p id="message">Drag your mouse to rotate it.<br>
 (On a touch screen, you can use your finger.)</p>
 
+<div id="textureControls">
+    <label for="rAngle">Angle from -180 to 180:</label>
+    <input
+      id="rAngle"
+      type="range"
+      min="-180"
+      max="180"
+      step="1"
+      onchange="reDraw()"
+    />
+  </div>
 
 <div id="canvas-holder">
    <canvas width="600" height="600" id="webglcanvas" style="background-color:red"></canvas>
